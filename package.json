@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "assignment3",
   "main": "./lib/roll.js",
+  "bin": {
+    "roll-dice": "./bin/cli.js"
+  },
   "scripts": {
     "test": "npm roll.js"
   },
