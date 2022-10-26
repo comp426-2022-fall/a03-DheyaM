@@ -1,0 +1,22 @@
+{
+  "name": "node-dice",
+  "version": "1.0.0",
+  "description": "assignment3",
+  "main": "./lib/roll.js",
+  "scripts": {
+    "test": "npm roll.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/comp426-2022-fall/a03-DheyaM.git"
+  },
+  "keywords": [
+    "roll"
+  ],
+  "author": "DheyaM",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/comp426-2022-fall/a03-DheyaM/issues"
+  },
+  "homepage": "https://github.com/comp426-2022-fall/a03-DheyaM#readme"
+}
