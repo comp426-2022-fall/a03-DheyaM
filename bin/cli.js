@@ -5,7 +5,7 @@ import { roll } from "/lib/roll.js";
 // import minimist to process argv
 import minimist from "minimist";
 
-// get CLI args
+// get CLI argv and process them
 const args = minimist(process.argv.slice(2));
 
 // default value of sides is 6: regular dice
