@@ -14,5 +14,6 @@ const dice = args.dice ? args.dice: 2;
 // default value of rolls is 1
 const rolls = args.rolls ? args.rolls: 1;
 
+// print output
 console.log(JSON.stringify(roll(sides, dice, rolls)));
 process.exit(0);
