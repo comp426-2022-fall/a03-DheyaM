@@ -1,4 +1,5 @@
 #!/usr/bin/env node
+
 // import function created in other folder
 import { roll } from "/lib/roll.js";
 // import minimist to process argv
