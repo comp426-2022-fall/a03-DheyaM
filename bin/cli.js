@@ -4,4 +4,8 @@ import minimist from "minimist";
 
 const args = minimist(process.argv.slice(2));
 
-// console.log(JSON.stringify(
+const sides = args.sides ? args.sides: 6;
+const dice = args.dice ? args.dice: 2;
+const rolls = args.rolls ? args.rolls: 1;
+
+console.log(JSON.stringify(roll(sides, dice, rolls)));
