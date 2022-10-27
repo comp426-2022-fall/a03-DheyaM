@@ -7,6 +7,7 @@ import minimist from "minimist";
 // get CLI args
 const args = minimist(process.argv.slice(2));
 
+// default value of sides is 6
 const sides = args.sides ? args.sides: 6;
 const dice = args.dice ? args.dice: 2;
 const rolls = args.rolls ? args.rolls: 1;
