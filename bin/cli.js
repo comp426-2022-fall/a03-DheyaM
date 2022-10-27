@@ -9,6 +9,7 @@ const args = minimist(process.argv.slice(2));
 
 // default value of sides is 6
 const sides = args.sides ? args.sides: 6;
+// default value of dice is 2
 const dice = args.dice ? args.dice: 2;
 const rolls = args.rolls ? args.rolls: 1;
 
