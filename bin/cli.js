@@ -2,6 +2,7 @@
 import { roll } from "/lib/roll.js";
 import minimist from "minimist";
 
+// get CLI args
 const args = minimist(process.argv.slice(2));
 
 const sides = args.sides ? args.sides: 6;
