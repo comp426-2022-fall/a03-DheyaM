@@ -1,9 +1,9 @@
 #!/usr/bin/env node
 
-// import function created in other folder
-import { roll } from "/lib/roll.js";
 // import minimist to process argv
 import minimist from "minimist";
+// import function created in other folder
+import { roll } from "../lib/roll.js";
 
 // get CLI argv and process them
 const args = minimist(process.argv.slice(2));
